@@ -21,8 +21,8 @@ plugins:
   - jekyll-seo-tag
 
 # Google-analytics
-google-analytics:
-  id: ""
+#google-analytics:
+#  id: ""
 
 # Exclude these files from your production _site
 exclude: ['package.json', 'src' , 'node_modules', 'README.md', 'CNAME', 'Gemfile', 'Gemfile.lock', 'LICENSE']
@@ -52,7 +52,6 @@ projects:
     archived: false
     forks: true
     projects:
-     - validateInputJS
      - AppSvcDemo
      - tescales.github.io
 
