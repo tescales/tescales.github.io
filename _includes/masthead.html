@@ -23,7 +23,8 @@
     {% if site.email %}
       <div class="{{ metadata_styles }}">
         {% octicon mail height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}
-        {% cloak_email me scales.cloud %}
+        <a href="#" class="cloak_email" id="cloak_email_330368015175957292964778873440288917321" data-before="me" data-after="scales.cloud"></a>
+        <script type="text/javascript"> var cloak = function() { el = document.getElementById("cloak_email_330368015175957292964778873440288917321"); var after = el.dataset.after; var before = el.dataset.before; el.href = 'mailto:' + before + '@' + after; if(el.innerHTML == '') { el.innerHTML = before + '@' + after; } }(); </script>
       </div>
     {% endif %}
     {% if user.location %}
