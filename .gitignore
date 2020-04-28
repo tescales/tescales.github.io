@@ -1,4 +1,40 @@
-**/.vscode/settings.json
+# Jekyll
+_site/
+*-cache/
+.jekyll-metadata
+
+# Ruby
+.bundle/
+.byebug_history
+.ruby-gemset
+.ruby-version
+*.gem
+Gemfile.lock
+
+# Files
+.analysis
+.DS_Store
+*.swp
+*~
+
+### Gulp ###
+package.json
+/node_modules/
+
+# Folders
+/vendor
+bbin/
+bin/
+coverage
+gh-pages/
+pkg/
+test/dest
+tmp/*
+
 **/*.code-workspace
 **/*.DS_STORE
 **/tescales
+.vscode
+previous/
+
+
