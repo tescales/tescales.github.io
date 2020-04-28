@@ -26,8 +26,8 @@ plugins:
 google-analytics:
   id: ""
 
-
-exclude: ['package.json', 'src' , 'node_modules']
+# Exclude these files from your production _site
+exclude: ['package.json', 'src' , 'node_modules', 'README.md', 'CNAME', 'Gemfile', 'Gemfile.lock', 'LICENSE']
 
 ### GH Personal Website Settings
 layout: stacked
@@ -58,10 +58,3 @@ projects:
      - AppSvcDemo
      - tescales.github.io
 
-# Exclude these files from your production _site
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
