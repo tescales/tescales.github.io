@@ -23,7 +23,7 @@
     {% if site.email %}
       <div class="{{ metadata_styles }}">
         {% octicon mail height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}
-        {% cloak_email site.email %}
+        {% cloak_email me scales.cloud %}
       </div>
     {% endif %}
     {% if user.location %}
