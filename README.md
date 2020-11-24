@@ -1,4 +1,4 @@
-# TEScales custom GitHub Pages Theme
+# TobyScales custom GitHub Pages Theme
 
 Based on: https://jekyll-theme-minimal-resume.netlify.com/ and https://github.com/github/personal-website
 

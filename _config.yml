@@ -43,7 +43,7 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
@@ -53,5 +53,5 @@ projects:
     forks: true
     projects:
      - AppSvcDemo
-     - tescales.github.io
+     - tobyscales.github.io
 
