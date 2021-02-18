@@ -7,7 +7,7 @@ description: Building Cloud Solutions for Media & Entertainment
 # User settings
 username: Toby Scales
 user_description: How do you reinvent your business for the cloud?<br> Automation and iteration are the methods; business value is the goal.
-user_title: Senior Cloud Architect, Microsoft Azure
+user_title: Senior Cloud Architect for Media and Entertainment
 
 # twitter_username: lorem_ipsum
 # github_username:  lorem_ipsum
@@ -49,9 +49,12 @@ projects:
   #   - stars
   limit: 9
   exclude:
-    archived: false
+    archived: true
     forks: true
     projects:
      - AppSvcDemo
      - tobyscales.github.io
+     - azure-bitwarden
+     - Enterprise-Scale
+     
 
