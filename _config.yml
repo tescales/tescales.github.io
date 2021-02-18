@@ -53,8 +53,9 @@ projects:
     forks: true
     projects:
      - AppSvcDemo
-     - tobyscales.github.io
+     - tescales.github.io
      - azure-bitwarden
      - Enterprise-Scale
-     
+     - azure-tescales.com
+     - azure-tobyscales.work
 
